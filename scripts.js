@@ -4,7 +4,7 @@ submit.addEventListener("click", validateForm)
 treeHeight.addEventListener("keydown", returnCheck)
 treeChar.addEventListener("keydown", returnCheck)
 
-// Assigning input values to an object after event validation and passing to the buildTree function
+// Assigning input values to an object after event validation
 
 function treeCapture() {
   var tree = {
