@@ -26,8 +26,8 @@ function validateForm() {
 
 // Function to check whether the enter key was pressed
 
-function returnCheck() {
-  if (event.keyCode === 13) {
+function returnCheck(e) {
+  if (e.keyCode === 13) {
     validateForm();
   }
 }
